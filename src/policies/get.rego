@@ -22,4 +22,5 @@ visible {
 enabled {
 	some index
 	data.roles[user_roles[index]].perms[path].enabled
+	myUser = dir.user("1")
 }
